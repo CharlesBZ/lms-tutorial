@@ -1,0 +1,12 @@
+npx create-next-app@3.4.12 lms-platform --typescript --tailwind --eslint
+npx shadcn-ui@latest init
+
+//if you fuck up
+npx shadcn-ui@latest add button --overwrite
+
+//in package.json change
+next: to 13.4.12 and eslint-config-next: to 13.4.12 then npm i to install
+
+//install next.nav extension
+then ctrl+shift+p next.nav and click import path button
+then type app and submit
